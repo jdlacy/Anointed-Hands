@@ -5,30 +5,37 @@
 <title>Anointed Hands Barbershop</title>
 <style>
 
+header {
+  background-size:contain; 
+  text-align:center; 
+  position: relative;
+  image-resolution:inherit;
+  background-color: #17191D;
+  padding-bottom: 10px;
+}
 
 .navbar {
     text-align: center;
+    z-index: 1;
     width: 100%;
-    height: 30px;
+    height: 37px;
     position: absolute;
-    z-index: 0;
     background-color: #B09B58;
     overflow-y: hidden;
     padding: 0;
 }
 
 .navbar a {
-    font-family: "Oxygen-Regular", sans-serif;
     font-weight: 800;
     margin: 0;
     padding: 5px 10px 5px 10px;
-    text-align: center;
+    text-align: justify;
     text-decoration: none;
     font-size: 20px;
-    color: #130c23;
+    color: #17191D;
 }
 
-.navbar a:hover {background-color: #B09B58;}
+.navbar a:hover {background-color: #17191D; color: #B09B58;}
 
 body, html {
   height: 100%;
@@ -48,7 +55,7 @@ body, html {
 }
 .bgimg-1 {
   background-image: url("./res/imgs/barbershop_long.jpg");
-  min-height: 100%;
+  min-height: 1200px;
 }
 
 .bgimg-2 {
@@ -99,23 +106,21 @@ h3 {
 
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+/*@media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
   }
-}
+}*/
 </style>
 </head>
 <body>
 <header>
-  <span><img src="./res/imgs/ah_logo.jpg" alt="Anointed Hands Barbershop Logo"></span>
+  <img src="./res/imgs/ah_logo_v2.png" alt="Anointed Hands Barbershop">
 </header>
 <div class="navbar">
-  <a href="./nav/About.html">About Us</a>
   <a href="./nav/Service.html">Services</a>
-  <a href="./index.html#">Appointments</a>
-  <a href="./index.html#">Barbers</a>
-  <a href="./index.html#">Invest</a>
+  <a href="./nav/Gallery.html">Gallery</a>
+  <a href="./nav/About.html">Barbers</a>
 </div>
 <div class="bgimg-1">
   <div class="caption">
@@ -156,20 +161,22 @@ h3 {
 
 <div class="bgimg-4">
   <div class="caption">
-  <span class="border" style="background-color:#17191D;font-size:50px;color: #B09B58;">THE LUXURY</span>
+  <span class="border" style="background-color:#17191D;font-size:50px;color: #B09B58;">THE MISSION</span>
   </div>
 </div>
 
 <div style="position:relative;">
   <div style="color: #17191D;background-color: #B09B58;text-align:center;padding:50px 80px;text-align: justify;">
-    <h3 style="text-align:center;">UPSCALE SERVICES ON SITE</h3>
-    <p>Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+    <h3 style="text-align:center;">CUSTOMER EXCELLENCE</h3>
+    <p>Anointed Hands Barbershop is committed to providing customers with an outstanding
+      experience in a luxurious environment that leaves you looking and feeling your best. All stylists and
+      barbers are committed to creating long-lasting relationships based on genuine care and dedication.</p>
   </div>
 </div>
 
 <div class="bgimg-1">
   <div class="caption">
-  <span class="border"><a href="mailto:bculver@cascadia.edu">QUESTIONS? REACH OUT!</a></span>
+  <span class="border"><a href="anointedhandsllc206@gmail.com">QUESTIONS? REACH OUT!</a></span>
 </div>
   </div>
 </div>

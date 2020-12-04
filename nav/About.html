@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us | Anointed Hands</title>
 <style>
-
 
 H2 {text-align: center;}
 H5 {text-align: center;}
@@ -11,44 +11,37 @@ H5 {text-align: center;}
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
 /* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
+header {
+  background-size:contain;
+  text-align:center; 
+  position: relative;
+  image-resolution:inherit;
 }
 
-.header h1 {
-  font-size: 50px;
+/*Navigation Styling*/
+.navbar {
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: 37px;
+    position: absolute;
+    background-color: #B09B58;
+    overflow-y: hidden;
+    padding: 0;
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+.navbar a {
+    font-weight: 800;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 20px;
+    color: #17191D;
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #B09B58;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #B09B58;
-  color: black;
-}
+.navbar a:hover {background-color: #17191D; color: #B09B58;}
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
@@ -111,17 +104,11 @@ body {
 }
 
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body, html {
+  height: 100%;
   margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #17191D;
 }
 
 .column {
@@ -182,20 +169,14 @@ html {
 </style>
 </head>
 <body>
-
-<div class="header">
-  <h1>Anointed Hands</h1>
-  <p>Welcome to Anointed Barbershop</p>
-</div>
-
-<div class="topnav">
-  <a href="#">Home</a>
-  <a href="#">Services</a>
-  <a href="#">Gallery</a>
-  <a href="#">About</a>
-  <a href="#" style="float:right"></a>
-</div>
-
+  <header>
+    <a href="/index.html"><img src="/res/imgs/ah_logo.png" alt="Anointed Hands Barbershop"></a>
+  </header>
+  <div class="navbar">
+    <a href="/nav/Service.html">Services</a>
+    <a href="/nav/Gallery.html">Gallery</a>
+    <a style="background-color: #17191D; color: #B09B58;" href="#">Barbers</a>
+  </div>
 <div class="about-section">
   <h1>About Us</h1>
   <p>who we are and what we do.</p>
@@ -205,7 +186,7 @@ html {
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="John" style="width:100%">
+      <img src="/res/imgs/theArt3.jpg" alt="John" style="width:100%">
       <div class="container">
         <h2>John</h2>
         <p class="title">Hairstylist</p>
@@ -218,7 +199,7 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <img src="/res/imgs/theArt4.jpg" alt="John" style="width:100%">
       <div class="container">
         <h2>John</h2>
         <p class="title">Hairstylist</p>
@@ -231,7 +212,7 @@ html {
   
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="/res/imgs/theArt1.jpg" alt="John" style="width:100%">
       <div class="container">
         <h2>John</h2>
         <p class="title">Hairstylist</p>
